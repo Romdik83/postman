@@ -19,7 +19,7 @@ public class PostmanTest {
                 .post("/post")
                 // Проверки
                 .then().log().all()
-                .statusCode(100)
+                .statusCode(200)
                 .body("data", org.hamcrest.Matchers.equalTo("Hi"));
     }
 }
