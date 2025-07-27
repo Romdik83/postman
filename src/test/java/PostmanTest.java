@@ -8,7 +8,6 @@ public class PostmanTest {
 
     @Test
     void shouldReturnAccounts() {
-
         // Given - When - Then
         // Предусловия
         given()
